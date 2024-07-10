@@ -1,0 +1,28 @@
+{
+  "name": "drizzle-orm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/main.js",
+  "scripts": {
+    "start:dev": "npx nodemon",
+    "build": "rimraf ./build && npx tsc",
+    "start:prod": "node build/main.js"
+  },
+  "keywords": [],
+  "author": "Silas Brasil",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "@types/pg": "^8.11.6",
+    "drizzle-kit": "^0.23.0",
+    "nodemon": "^3.1.4",
+    "rimraf": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.32.0",
+    "pg": "^8.12.0"
+  }
+}
